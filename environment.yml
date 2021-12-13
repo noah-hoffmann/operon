@@ -1,4 +1,4 @@
-name: operon-env
+name: operon
 channels:
   - conda-forge
   - intel
