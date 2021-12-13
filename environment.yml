@@ -1,0 +1,16 @@
+name: operon-env
+channels:
+  - conda-forge
+  - intel
+dependencies:
+  - python=3.9.1
+  - cmake=3.19.1
+  - pybind11=2.6.1
+  - eigen=3.4.0
+  - fmt=7.1.3
+  - ceres-solver=2.0.0
+  - taskflow=3.1.0
+  - openlibm
+  - cxxopts
+  - numpy
+  - scikit-learn
