@@ -207,10 +207,13 @@ set(THIRDPARTY_INCLUDE_DIRS
     ${fast_float_SOURCE_DIR}/include
     ${gsl_SOURCE_DIR}/include
     ${nanobench_SOURCE_DIR}
-    ${span-lite_SOURCE_DIR}
+    ${PROJECT_SOURCE_DIR}/thirdparty/span
     ${vectorclass_SOURCE_DIR}
-    ${xxhash_SOURCE_DIR}
-    ${VSTAT_INCLUDE_DIRS}
+    ${PROJECT_SOURCE_DIR}/thirdparty/xxhash
+    ${PROJECT_SOURCE_DIR}/thirdparty/vstat
+    ${PROJECT_SOURCE_DIR}/thirdparty/robin_hood
+    ${PROJECT_SOURCE_DIR}/thirdparty/parser
+    ${PROJECT_SOURCE_DIR}/thirdparty/tiny_solver
 )
 
 # populate optional content
